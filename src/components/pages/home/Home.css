@@ -6,7 +6,8 @@
 
 .introduction {
     color: #2b2d42;
-    font-size: 40px;
+    font-size: 45px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;

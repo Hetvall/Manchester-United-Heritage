@@ -7,14 +7,3 @@
     font-size: 60px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
-.badge {
-    margin-left: 20px;
-    width: 6%;
-}
-
-.header-container {
-    background-color: #d90429;
-    width: 100%;
-    padding: 1px;
-}

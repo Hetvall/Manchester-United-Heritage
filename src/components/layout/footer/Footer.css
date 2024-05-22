@@ -1,6 +1,9 @@
 .copyright {
-    background-color: aliceblue;
+    color: black;
     display: flex;
     justify-content: center;
-    font-size: small;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    ;
 }

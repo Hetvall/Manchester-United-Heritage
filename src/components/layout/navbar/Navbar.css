@@ -5,3 +5,12 @@
 .options-icon {
     color: #ffff;
 }
+
+.custom-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.custom-link:hover {
+    text-decoration: none;
+}

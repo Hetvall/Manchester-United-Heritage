@@ -1,13 +1,18 @@
+import { useAuth } from "../context";
 import Footer from "./layout/footer/Footer";
-import Navbar from "./layout/navbar/Navbar";
 import Header from "./layout/header/Header";
+import NavbarContainer from "./layout/navbar/NavbarContainer";
+import { Outlet } from "react-router-dom";
 
-const Layout = ({ children }) => {
+const Layout = () => {
+  const { userLogIn, doSignOut } = useAuth();
   return (
     <div>
       <Header />
-      <Navbar />
-      {children}
+      <NavbarContainer userLogIn={userLogIn} doSignOut={doSignOut} />
+      <div style={{ minHeight: "calc(100vh - 370px)" }}>
+        <Outlet />
+      </div>
       <Footer />
     </div>
   );
